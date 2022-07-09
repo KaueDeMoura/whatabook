@@ -27,7 +27,7 @@
                         login
                     </h6>
                     <input id="email" type="email" class="form-control rounded-3 mb-2" placeholder="Email">
-                    <input id="pass" type="password" class="form-control rounded-3 mb-2" placeholder="Password">
+                    <input id="pass" type="password" class="form-control rounded-3 mb-3" placeholder="Password">
                     <div id="btnentrar" class="mb-3 d-flex justify-content-center"><button id="entrar" type="button"
                             class="btn rounded-4" onclick="login()">Entrar</button>
                     </div>
@@ -84,5 +84,85 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
 </script>
 <script src="./login.js"></script>
+
+<style>
+    .tudo {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logologin {
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+
+    .bloco1 {
+        background: #114B5F;
+        height: 110%;
+        width: 40%;
+        position: fixed;
+        align-content: center;
+    }
+
+    .bloco2 {
+        background: #fff;
+        display: flex;
+        position: fixed;
+        justify-content: first baseline;
+        right: 0;
+        height: 100%;
+        width: 61%;
+    }
+
+    #card1 {
+        background: #BCEEFF;
+    }
+
+    #email::placeholder,
+    #pass::placeholder {
+        color: #ddd;
+    }
+
+    #email,
+    #pass {
+        background: #114B5F;
+        color: #fff;
+    }
+
+    #email:focus,
+    #pass:focus {
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+
+    #entrar {
+        background-color: #fff;
+        color: #114B5F;
+        width: 35%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 0 none;
+        outline: 0;
+    }
+
+    #esqueceu {
+        font-size: x-small;
+        color: #114B5F;
+    }
+
+    #cadastrar {
+        background-color: #fff;
+        color: #114B5F;
+        width: 45%;
+        height: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 0 none;
+        outline: 0;
+    }
+
+    #subtitle1 {
+        font-size: larger;
+    }
+</style>
 
 </html>

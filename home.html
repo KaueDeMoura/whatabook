@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Whatabook</title>
+    <title>Categorias | Whatabook</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/logopreta.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="body" style="">
     <!-- Nav-bar -->
     <nav id="navtd" class="navbar navbar-expand-lg shadow-lg" style="height: 3.8rem">
         <div class="container-fluid text-">
@@ -81,12 +81,11 @@
     </nav>
     <!-- fim -->
     <!-- conteudo -->
-    <div id="teste">
-    </div>
+
     <!-- fim -->
     <!-- footer -->
-    <footer id="footer" class="position-relative d-flex flex-row justify-content-sm-between"
-        style="background-color: #114B5F; color: #fff; height: 16%; padding-top: 0%; padding-bottom: 1%;">
+    <footer id="footer" class="fixed-bottom d-flex flex-row justify-content-sm-between"
+        style="background-color: #114B5F; color: #fff; height: 10%; padding-top: 0%; padding-bottom: 0%;">
         <div id="rodape1" class="fw-lighter ms-3 mt-3">
             <h6 id="txt" class="">Contato:</h6>
             <a href="http://instagram.com/grb.alves" class="text-decoration-none">
@@ -118,6 +117,12 @@
         font-size: smaller;
         margin-bottom: 2px;
         color: #fff;
+    }
+
+    body {
+        background: linear-gradient(0deg, #fff 0%, #114B5F 100%);
+        width: 100%;
+        height: 100vh;
     }
 </style>
 
